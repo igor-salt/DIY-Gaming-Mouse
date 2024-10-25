@@ -1,0 +1,331 @@
+(footprint "SW_Tactile_SPDT_Omron_D2F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Omron, D2F, Ultra, Subminiature, Basic, Switch, SPDT")
+	(tags "Omron Switch SPDT D2F")
+	(property "Reference" "SW1"
+		(at 0 -2.413 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a4d6738-ad42-4356-a28f-026a514a3756")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0.127 12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86b878ca-3cd4-4e13-8c99-9e64f2d9e3de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Library:SW_Tactile_SPDT_Omron_D2F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd7869d1-e602-4be0-9229-dc78295b6a0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fafa9e2-3e5b-4d6e-be76-ab90cfb770ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4771c044-0919-43ee-a9d8-63e8d6fc9b7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -3.1 -1.52)
+		(end -3.1 11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79cbfe6a-6bb2-456b-9e36-1006e7a27d01")
+	)
+	(fp_line
+		(start -3.1 -1.52)
+		(end 3.1 -1.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79a9c931-b0b2-461c-a9a1-58be40642a60")
+	)
+	(fp_line
+		(start -3.1 11.68)
+		(end 3.1 11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c56dcc83-42be-467a-bd6b-146ca83a5a33")
+	)
+	(fp_line
+		(start -1.45 2.61)
+		(end 1.45 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65c25a91-0c47-4a8c-b0c5-420208eeb9b7")
+	)
+	(fp_line
+		(start -1.45 3.81)
+		(end -1.45 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ee5cae0-1f8d-4d44-aeed-ea525b797e98")
+	)
+	(fp_line
+		(start 1.45 2.61)
+		(end 1.45 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a163acbb-83fd-4071-bbcf-d6631b77554a")
+	)
+	(fp_line
+		(start 1.45 3.81)
+		(end -1.45 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a05a0352-7794-4492-bbb0-381324c344bc")
+	)
+	(fp_line
+		(start 3.1 -1.52)
+		(end 3.1 11.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecdcec47-b424-4cad-b873-b53310a7c5a1")
+	)
+	(fp_line
+		(start -3.15 -1.57)
+		(end -3.15 11.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db539ddc-870c-4abc-acd8-56fa066abd58")
+	)
+	(fp_line
+		(start -3.15 -1.57)
+		(end 3.15 -1.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7510f5a7-89b5-40ab-a50c-e31c3559ec9a")
+	)
+	(fp_line
+		(start -3.15 11.73)
+		(end 3.15 11.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "273c54fd-b932-4af9-9451-01defede6f7f")
+	)
+	(fp_line
+		(start 3.15 -1.57)
+		(end 3.15 11.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "682f38a6-59f6-4ce9-8bed-1b4e75fe53c1")
+	)
+	(fp_line
+		(start -2.9 -1.32)
+		(end 2.9 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a00cedf4-0b7f-44f5-beb5-26b7f846e0a1")
+	)
+	(fp_line
+		(start -2.9 11.48)
+		(end -2.9 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c43277bc-6255-4250-a352-8196ceb6231e")
+	)
+	(fp_line
+		(start -1.45 2.61)
+		(end 1.45 2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dbe2b88-afd9-46da-a545-a512885c772f")
+	)
+	(fp_line
+		(start -1.45 3.81)
+		(end -1.45 2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5000b15a-4e92-47be-8ef1-8c0fe930a4e4")
+	)
+	(fp_line
+		(start 1.45 2.61)
+		(end 1.45 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57ba5405-cb8b-4575-81a5-ffd3d03f43e4")
+	)
+	(fp_line
+		(start 1.45 3.81)
+		(end -1.45 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe096a8c-fd28-4ddb-83f5-6ce9f6ab4570")
+	)
+	(fp_line
+		(start 2.9 -1.32)
+		(end 2.9 11.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e676ef9-ddea-4bc2-9327-2f2a863024b7")
+	)
+	(fp_line
+		(start 2.9 11.48)
+		(end -2.9 11.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d69faeb4-2779-4d9e-bf55-fb06ae8cd952")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de0ce422-a756-4d75-8c31-e3f24b4ccad1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.08 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b494da95-1e6a-4926-b7f0-577f110e6142")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6fe8b0e-37e7-418f-af6f-a7eb7b0d258c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10.16 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc48db78-73f0-41b3-a103-64baed0db345")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPDT_Omron_D2F.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "C:/KLIB/3dmodels/Button_Switch_THT.3dshapes/D2F_Straight.STEP"
+		(offset
+			(xyz -3 1.5 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
